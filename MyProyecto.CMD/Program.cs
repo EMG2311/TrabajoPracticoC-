@@ -7,18 +7,39 @@ internal static class  Program
 {
     private static void Main(string[] args)
     {
-        Customer customer = new Customer();
-        customer.CuilCuit = "asd";
-        customer.DocumentNumber = "22313";
+        CustomerRespotirory customerRespotirory = new CustomerRespotirory(new MyDbContext());
+
+        // ADD
+        
+         Customer customer = new Customer();
+        customer.CuilCuit = "papa";
+        customer.DocumentNumber = "sadasd";
         customer.Email = "asdas@gmail.com";
         customer.EmailConfirmed = true;
         customer.Name = "asd";
         customer.LastName = "asdasd";
         customer.Status = CustomerStatus.activo;
 
-        CustomerRespotirory customerRespotirory = new CustomerRespotirory(new MyDbContext());
         customerRespotirory.Add(customer);
         
+        /*List
+        List<Customer> customers = customerRespotirory.FindAll();
+        foreach (Customer customer in customers)
+        {
+            Console.WriteLine(customer.Id);
+        }
+        */
+        /*Actualizacion y get
+         * Customer customer = customerRespotirory.Get(1);
+        customer.Name = "German";
+        customerRespotirory.Update(customer);
+        */
+
+        /* Delete
+        customerRespotirory.Delete(1);
+        */
+
+
     }
 
     private static IServiceCollection CreateDependencies()

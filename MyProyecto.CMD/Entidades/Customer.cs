@@ -12,7 +12,7 @@ namespace MyProyecto.CMD.Entidades
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string CuilCuit { get; set; }
         public string DocumentNumber { get; set; }
         public string Email { get; set; }

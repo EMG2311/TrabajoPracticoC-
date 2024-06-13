@@ -11,8 +11,8 @@ using MyProyecto.CMD;
 namespace MyProyecto.CMD.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20240613193944_PrimeraMigracion")]
-    partial class PrimeraMigracion
+    [Migration("20240613200534_primeraMigracion")]
+    partial class primeraMigracion
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,9 +23,9 @@ namespace MyProyecto.CMD.Migrations
 
             modelBuilder.Entity("MyProyecto.CMD.Entidades.Customer", b =>
                 {
-                    b.Property<string>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("int");
 
                     b.Property<string>("CuilCuit")
                         .IsRequired()

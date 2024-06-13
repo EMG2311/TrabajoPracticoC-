@@ -21,9 +21,9 @@ namespace MyProyecto.CMD.Migrations
 
             modelBuilder.Entity("MyProyecto.CMD.Entidades.Customer", b =>
                 {
-                    b.Property<string>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("int");
 
                     b.Property<string>("CuilCuit")
                         .IsRequired()
