@@ -1,0 +1,12 @@
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Application.Repositories\bin\Debug\net6.0\Application.Repositories.deps.json
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Application.Repositories\bin\Debug\net6.0\Application.Repositories.dll
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Application.Repositories\bin\Debug\net6.0\Application.Repositories.pdb
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Application.Repositories\obj\Debug\net6.0\Application.Repositories.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Application.Repositories\obj\Debug\net6.0\Application.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Application.Repositories\obj\Debug\net6.0\Application.Repositories.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Application.Repositories\obj\Debug\net6.0\Application.Repositories.AssemblyInfo.cs
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Application.Repositories\obj\Debug\net6.0\Application.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Application.Repositories\obj\Debug\net6.0\Application.Repositories.dll
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Application.Repositories\obj\Debug\net6.0\refint\Application.Repositories.dll
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Application.Repositories\obj\Debug\net6.0\Application.Repositories.pdb
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Application.Repositories\obj\Debug\net6.0\ref\Application.Repositories.dll

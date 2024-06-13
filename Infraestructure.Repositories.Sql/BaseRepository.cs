@@ -1,38 +1,54 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Application.Repositories;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Application.Repositories;
-
-namespace Application.Repositories.Sql
+namespace Infraestructure.Repositories.Sql
 {
-    public class BaseRepository<TEntidad> : 
+    public class BaseRepository<TEntidad> : IRepository<TEntidad> where TEntidad : class
     {
-        public void add(TEntidad tEntidad)
+        protected readonly DbContext _context;
+        protected readonly DbSet<TEntidad> _dbSet;
+        public BaseRepository(DbContext context)
         {
-            throw new NotImplementedException();
+            _context = context;
+            _dbSet = _context.Set<TEntidad>();
         }
 
-        public void delete(int id)
+        public void Add(TEntidad entity)
         {
-            throw new NotImplementedException();
+            _dbSet.Add(entity);
+            _context.SaveChanges();
         }
 
-        public List<TEntidad> findAll()
+        public void Delete(int id)
         {
-            throw new NotImplementedException();
+            var entity = _dbSet.Find(id);
+            if (entity != null)
+            {
+                _dbSet.Remove(entity);
+                _context.SaveChanges();
+            }
         }
 
-        public TEntidad get(int id)
+        public List<TEntidad> FindAll()
         {
-            throw new NotImplementedException();
+            return _dbSet.ToList();
         }
 
-        public TEntidad update(TEntidad tEntidad)
+        public TEntidad Get(int id)
         {
-            throw new NotImplementedException();
+            return _dbSet.Find(id);
+        }
+
+        public TEntidad Update(TEntidad entity)
+        {
+            _dbSet.Update(entity);
+            _context.SaveChanges();
+            return entity;
         }
     }
 }
+

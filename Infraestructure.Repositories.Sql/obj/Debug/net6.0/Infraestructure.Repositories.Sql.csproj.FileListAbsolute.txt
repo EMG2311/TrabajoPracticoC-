@@ -1,0 +1,15 @@
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Infraestructure.Repositories.Sql\bin\Debug\net6.0\Infraestructure.Repositories.Sql.deps.json
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Infraestructure.Repositories.Sql\bin\Debug\net6.0\Infraestructure.Repositories.Sql.dll
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Infraestructure.Repositories.Sql\bin\Debug\net6.0\Infraestructure.Repositories.Sql.pdb
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Infraestructure.Repositories.Sql\bin\Debug\net6.0\Application.Repositories.dll
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Infraestructure.Repositories.Sql\bin\Debug\net6.0\Application.Repositories.pdb
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Infraestructure.Repositories.Sql\obj\Debug\net6.0\Infraestructure.Repositories.Sql.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Infraestructure.Repositories.Sql\obj\Debug\net6.0\Infraestructure.Repositories.Sql.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Infraestructure.Repositories.Sql\obj\Debug\net6.0\Infraestructure.Repositories.Sql.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Infraestructure.Repositories.Sql\obj\Debug\net6.0\Infraestructure.Repositories.Sql.AssemblyInfo.cs
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Infraestructure.Repositories.Sql\obj\Debug\net6.0\Infraestructure.Repositories.Sql.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Infraestructure.Repositories.Sql\obj\Debug\net6.0\Infraestructure.Repositories.Sql.csproj.CopyComplete
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Infraestructure.Repositories.Sql\obj\Debug\net6.0\Infraestructure.Repositories.Sql.dll
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Infraestructure.Repositories.Sql\obj\Debug\net6.0\refint\Infraestructure.Repositories.Sql.dll
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Infraestructure.Repositories.Sql\obj\Debug\net6.0\Infraestructure.Repositories.Sql.pdb
+C:\Users\admin\source\repos\GRUPOB.PLAII.BACKEND\Infraestructure.Repositories.Sql\obj\Debug\net6.0\ref\Infraestructure.Repositories.Sql.dll

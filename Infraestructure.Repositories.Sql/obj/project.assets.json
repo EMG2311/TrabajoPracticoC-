@@ -737,6 +737,20 @@
             "rid": "win"
           }
         }
+      },
+      "Application.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.31",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.31"
+        },
+        "compile": {
+          "bin/placeholder/Application.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.Repositories.dll": {}
+        }
       }
     }
   },
@@ -1902,10 +1916,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Application.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../Application.Repositories/Application.Repositories.csproj",
+      "msbuildProject": "../Application.Repositories/Application.Repositories.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Application.Repositories >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.31",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.31"
     ]
@@ -1936,7 +1956,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\admin\\source\\repos\\GRUPOB.PLAII.BACKEND\\Application.Repositories\\Application.Repositories.csproj": {
+              "projectPath": "C:\\Users\\admin\\source\\repos\\GRUPOB.PLAII.BACKEND\\Application.Repositories\\Application.Repositories.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

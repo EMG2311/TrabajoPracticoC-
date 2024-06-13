@@ -6,15 +6,13 @@ using System.Threading.Tasks;
 
 namespace Application.Repositories
 {
-    public interface IRepository<TEntidad>
+    public interface IRepository<TEntidad> where TEntidad : class
     {
-        void add(TEntidad tEntidad);
-        void delete(int id);
-
-        TEntidad update(TEntidad tEntidad);
-        TEntidad get(int id);
-        List<TEntidad> findAll();
-
+        void Add(TEntidad entity);
+        void Delete(int id);
+        List<TEntidad> FindAll();
+        TEntidad Get(int id);
+        TEntidad Update(TEntidad entity);
 
     }
 }
