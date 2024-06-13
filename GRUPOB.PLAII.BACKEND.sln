@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{C42E8E6C-BF4A-4AE9-A63A-E49FACC85ECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Repositories", "Application.Repositories\Application.Repositories.csproj", "{91D87B98-ED74-412A-A2B5-952847A38019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructure.Repositories.MongoDB", "Infraestructure.Repositories.MongoDB\Infraestructure.Repositories.MongoDB.csproj", "{87B13FF3-1DD4-4AF7-9AA9-491AE4575692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructure.Repositories.Sql", "Infraestructure.Repositories.Sql\Infraestructure.Repositories.Sql.csproj", "{A55616EF-6174-4E20-AFB2-A3EDFF1764E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91D87B98-ED74-412A-A2B5-952847A38019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91D87B98-ED74-412A-A2B5-952847A38019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91D87B98-ED74-412A-A2B5-952847A38019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91D87B98-ED74-412A-A2B5-952847A38019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B13FF3-1DD4-4AF7-9AA9-491AE4575692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B13FF3-1DD4-4AF7-9AA9-491AE4575692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B13FF3-1DD4-4AF7-9AA9-491AE4575692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B13FF3-1DD4-4AF7-9AA9-491AE4575692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A55616EF-6174-4E20-AFB2-A3EDFF1764E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A55616EF-6174-4E20-AFB2-A3EDFF1764E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A55616EF-6174-4E20-AFB2-A3EDFF1764E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A55616EF-6174-4E20-AFB2-A3EDFF1764E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{91D87B98-ED74-412A-A2B5-952847A38019} = {C42E8E6C-BF4A-4AE9-A63A-E49FACC85ECA}
+		{87B13FF3-1DD4-4AF7-9AA9-491AE4575692} = {C42E8E6C-BF4A-4AE9-A63A-E49FACC85ECA}
+		{A55616EF-6174-4E20-AFB2-A3EDFF1764E7} = {C42E8E6C-BF4A-4AE9-A63A-E49FACC85ECA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55D91372-D431-4DDE-A8F6-CDEEA5281748}
+	EndGlobalSection
+EndGlobal
