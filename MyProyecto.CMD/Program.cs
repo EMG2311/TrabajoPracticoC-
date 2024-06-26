@@ -50,7 +50,7 @@ internal static class  Program
         {
             options.UseMySQL("Server=localhost;port=3306;Database=productos;User=root;Password=root;"); ;
         }, ServiceLifetime.Scoped);
-        services.AddTransient<ICustomerRepository, ICustomerRepository>();
+        services.AddTransient<ICustomerRepository, CustomerRespotirory>();
         return services;
 
     }

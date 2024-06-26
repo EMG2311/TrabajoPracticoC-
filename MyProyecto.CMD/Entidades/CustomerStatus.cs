@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyProyecto.CMD.Entidades
 {
-    internal enum CustomerStatus
+    public enum CustomerStatus
     {
         activo=1,
         desactivo=2

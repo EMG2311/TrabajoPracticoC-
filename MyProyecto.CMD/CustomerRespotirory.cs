@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MyProyecto.CMD
 {
-    internal class CustomerRespotirory:BaseRepository<Customer>,IRepository<Customer>
+    public class CustomerRespotirory:BaseRepository<Customer>,ICustomerRepository
     {
         public CustomerRespotirory(MyDbContext myDbContext):base(myDbContext) { }
     }

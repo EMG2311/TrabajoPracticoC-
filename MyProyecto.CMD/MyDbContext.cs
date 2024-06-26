@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace MyProyecto.CMD
 {
-    internal class MyDbContext:DbContext
+    public class MyDbContext:DbContext
     {
-        public DbSet<Customer> Customers { get; set; }
+        internal DbSet<Customer> Customers { get; set; }
         public MyDbContext() { }
         public MyDbContext(DbContextOptions<MyDbContext> options) : base(options) { }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

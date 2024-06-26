@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MyProyecto.CMD.Entidades
 {
-    internal class Customer
+    public class Customer
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

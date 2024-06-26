@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MyProyecto.CMD
 {
-    internal interface ICustomerRepository:IRepository<Customer>
+    public interface ICustomerRepository:IRepository<Customer>
     {
     }
 }
